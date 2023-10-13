@@ -1,0 +1,40 @@
+.popover-carts {
+    .pop-cart-body {
+        .pop-cart-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .book {
+                display: flex;
+                gap: 5px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                .price {
+                    color: #ee4d2d;
+                }
+            }
+        }
+        .pop-cart-footer {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 15px;
+            button {
+                overflow: visible;
+                outline: 0;
+                cursor: pointer;
+                border-radius: 3px;
+                font-size: 16px;
+                height: 36px;
+                padding: 0 20px;
+                color: #fff;
+                border:none;
+                background: #ee4d2d;
+            }
+
+        }
+    }
+}

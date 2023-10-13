@@ -1,0 +1,68 @@
+.order-container {
+    // background: rgb(239, 239, 239);
+    
+    .order-book {
+        // background-color: #fff;
+        background: #fff;
+        padding: 15px;
+        border-bottom: 5px solid rgb(239, 239, 239);
+        border-top: 5px solid rgb(239, 239, 239);
+        // margin-top: 15px;
+
+
+     
+        .book-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .action {
+                min-width: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        }
+    
+    }
+
+    .order-sum {
+        background: #fff;
+        width: 100%;
+        padding: 10px 20px 0;
+        .calculate {
+            height: 50px;
+            line-height: 50px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px 0;
+            margin: 30px 0 20px;
+            overflow: visible;
+            outline: 0;
+            cursor: pointer;
+            border-radius: 3px;
+            color: #fff;
+            border:none;
+            background: #ee4d2d;
+
+        }
+
+    }
+
+    .info {
+        .method {
+            div{
+                padding-bottom: 5px;
+
+            }
+
+        }
+    }
+
+}
